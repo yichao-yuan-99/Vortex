@@ -1,0 +1,13 @@
+project(GPU-IO-lib LANGUAGES CXX)
+
+find_package(rocRand)
+add_subdirectory(hip)
+add_subdirectory(sched)
+add_subdirectory(kernels)
+add_subdirectory(execution)
+add_subdirectory(examples)
+add_subdirectory(tools)
+add_subdirectory(ssb-utils)
+add_subdirectory(crystal-ssb)
+add_subdirectory(crystal-ssb-zero-copy)
+add_subdirectory(crystal-ssb-selectivity)

@@ -1,0 +1,1 @@
+Structure the project like this to limit the scope of hip code
