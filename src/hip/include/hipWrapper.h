@@ -169,10 +169,8 @@ namespace gpuio::hip {
     size_t size = 0;;
     int device = -1;
 
-  private:
     MemoryRef(uint8_t *_ptr, size_t _size, int _device) : ptr(_ptr), size(_size), device(_device) {}
 
-  public:
     MemoryRef() = default;
     MemoryRef(int d): device(d) {}
     template<typename T>
